@@ -3,170 +3,97 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<title>BattleRush — Privacy Policy</title>
-<meta name="description" content="BattleRush privacy policy: minimal data collection, local-only scores, and your choices.">
-<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="favicon.svg">
+<title>Privacy Policy — USA Sports Hub</title>
+<meta name="description" content="Read the USA Sports Hub privacy policy. Learn how we handle your data, our commitment to your privacy, and your rights as a user.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-
-<!-- Keep if present in your project -->
-<link rel="stylesheet" href="assets/css/style.css">
-
-<style>
-  :root{ --ring: rgba(148,163,184,.25); --ink:#0f172a; --bg:#f8fafc; --muted:#475569; }
-  *{ box-sizing:border-box }
-  body{ margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--ink); background:var(--bg) }
-
-  /* Header */
-  .header{ position:sticky; top:0; z-index:50; background:#0b1020; color:#e5e7eb; border-bottom:1px solid var(--ring) }
-  .wrap{ max-width:1160px; margin:0 auto; padding:0 16px }
-  .nav{ display:flex; align-items:center; justify-content:space-between; height:64px; gap:16px }
-  .brand{ display:flex; gap:10px; align-items:center; font-weight:800; color:#e5e7eb; text-decoration:none }
-  .brand img{ height:28px }
-  .menu{ display:flex; gap:14px; align-items:center }
-  .menu a{ color:#e5e7eb; text-decoration:none; opacity:.95 }
-  .menu a:hover{ opacity:1; text-decoration:underline }
-  .burger{ display:none; background:none; border:0; color:#e5e7eb; font-size:24px }
-  @media (max-width:800px){ .menu{display:none} .burger{display:block} }
-
-  /* Hero */
-  .hero{ background:#0b1020; color:#e5e7eb; padding:36px 0; border-bottom:1px solid var(--ring) }
-  .hero h1{ margin:0 0 6px; font-size:28px }
-  .hero p{ margin:0; color:#cbd5e1 }
-
-  /* Content */
-  .section{ padding:24px 0 }
-  .grid{ display:grid; gap:16px }
-  .card{ background:#fff; border:1px solid var(--ring); border-radius:16px; padding:16px; box-shadow:0 6px 26px rgba(15,23,42,.05) }
-  h3{ margin:0 0 8px }
-  .muted{ color:var(--muted) }
-  ul{ margin:0; padding-left:18px }
-
-  /* Buttons */
-  .btn{ display:inline-block; padding:10px 14px; border-radius:10px; font-weight:800; border:1px solid var(--ring); background:#fff; cursor:pointer }
-  .btn.danger{ background:linear-gradient(90deg,#ef4444,#f59e0b); color:#0b1020; border:0 }
-
-  /* Footer */
-  .footer{ background:#0b1020; color:#94a3b8; padding:18px 0; border-top:1px solid var(--ring) }
-</style>
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>:root{--primary:#003594;--secondary:#d50a0a;--bg:#f4f4f4;--text:#333;--surface:#fff}body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif}.nav{background:var(--surface);border-bottom:3px solid var(--secondary)}.hero{background:linear-gradient(135deg,#003594,#b30000);color:#fff}.hero h1,.hero p{color:#fff}.btn{background:var(--secondary);color:#fff;border:none}.btn.ghost{background:transparent;border:2px solid #fff;color:#fff}.nav .btn.ghost{color:var(--primary);border:2px solid var(--primary)}.card{background:var(--surface);border-radius:8px;box-shadow:0 4px 6px rgba(0,0,0,0.1)}.pill{background:rgba(255,255,255,0.2);color:#fff}footer{background:#111;color:#aaa}</style>
 </head>
 <body>
-
-<!-- Header -->
-<header class="header">
-  <div class="wrap nav">
-    <a class="brand" href="index.html">
-      <img src="assets/img/battlerush-logo.svg" alt="BattleRush"><span>BattleRush</span>
-    </a>
-    <nav class="menu" data-nav-menu>
-      <a href="index.html">Home</a>
-      <a href="game.html">Play Game</a>
-      <a href="leaderboard.html">Leaderboard</a>
-      <a href="about.html">About</a>
-      <a href="blog.html">Blog</a>
-      <a href="faq.html">FAQ</a>
-      <a href="privacy.html" style="opacity:1;font-weight:800">Privacy</a>
-      <a href="terms.html">Terms</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <button class="burger" data-nav-toggle aria-label="Toggle Menu">☰</button>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Home"><img src="assets/img/logo.svg" alt="USA Sports Hub Logo"><span>USA Sports Hub</span></a>
+    <div class="menu" data-nav-menu>
+      <a href="index.html" >Home</a>
+      <a href="game.html" >Sports Guides</a>
+      <a href="about.html" >About</a>
+      <a href="blog.html" >Blog</a>
+      <a href="faq.html" >FAQ</a>
+      <a href="privacy.html" style='opacity:1;font-weight:800'>Privacy</a>
+      <a href="terms.html" >Terms</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="right"><a class="btn ghost" data-nav-toggle>Menu</a><a class="btn" href="game.html">Get Started</a></div>
   </div>
-</header>
-
-<!-- Hero -->
-<header class="hero">
-  <div class="wrap">
-    <h1>Privacy Policy</h1>
-    <p>Last updated: <time datetime="2025-08-22">22 Aug 2025</time></p>
+</nav>
+<header class='hero'><div class='container'><h1>Privacy Policy</h1><p>Last updated: October 26, 2025</p></div></header>
+<section class='section container'>
+  <div class='card'>
+    <h2>Our Commitment to Your Privacy</h2>
+    <p>Welcome to USA Sports Hub! Your privacy is critically important to us. We are a content website dedicated to providing NFL and MLB insights. Because our goal is to build a trusted community, we believe in being transparent about how we collect and use data. This policy is written in plain language to help you understand our practices.</p>
+    <p>This Privacy Policy explains what information we collect when you use our website (the "Service"), how we use that information, and the choices you have. We've designed our Service to minimize data collection because your trust is our most valuable asset.</p>
   </div>
-</header>
 
-<!-- Content -->
-<section class="section">
-  <div class="wrap grid">
-    <article class="card">
-      <h3>Overview</h3>
-      <p class="muted">BattleRush is a casual web gaming site. We do not require account signup and we minimize data collection.</p>
-    </article>
+  <div class='card'>
+    <h2>Information We Collect (and Why)</h2>
+    <p>We collect information in a few different ways, always with the goal of improving our Service and providing you with the best possible experience.</p>
+    
+    <h3>1. Information You Provide to Us</h3>
+    <p>This is information you actively give us. Currently, the only way to do this is through our contact form.</p>
+    <ul>
+      <li><strong>Contact Form Submissions:</strong> If you choose to contact us, we collect the information you provide, such as your name, email address, and the content of your message. We use this information solely to respond to your inquiries, feedback, or suggestions. We do not use this email address for marketing purposes unless you explicitly ask us to.</li>
+    </ul>
 
-    <article class="card">
-      <h3>Information We Handle</h3>
-      <ul class="muted">
-        <li><b>Local data:</b> high scores and simple preferences stored in your browser’s <code>localStorage</code>. This never leaves your device unless you export or share it.</li>
-        <li><b>Contact messages:</b> if you choose to contact us, we receive only the details you submit (e.g., name, email, message).</li>
-      </ul>
-    </article>
+    <h3>2. Information We Collect Automatically</h3>
+    <p>Like most websites, we collect some information automatically as you browse USA Sports Hub. This data is generally anonymous and helps us understand how people use our site so we can make it better.</p>
+    <ul>
+      <li><strong>Log Data and Analytics:</strong> This may include your IP address (which can be used to estimate your general location), browser type, operating system, the pages you visit on our site, the time and date of your visit, and how long you spent on those pages. We use this aggregated, anonymous data to analyze trends, administer the site, and improve our content strategy.</li>
+    </ul>
+  </div>
 
-    <article class="card">
-      <h3>Cookies</h3>
-      <p class="muted">We do not set cookies by default. If you integrate third-party tools later (e.g., analytics or ads), those services may set cookies under their own policies.</p>
-    </article>
+  <div class='card'>
+    <h2>How We Use Cookies</h2>
+    <p>A cookie is a small text file that a website stores on your computer or mobile device when you visit the site. They are widely used to make websites work more efficiently, as well as to provide information to the site owners.</p>
+    <ul>
+      <li><strong>Functional Cookies:</strong> We use a simple `sessionStorage` item for our one-time age gate confirmation on the homepage. This is designed to improve your experience by not showing you the same pop-up on every visit during a single session. This data is not sent to us and is cleared when you close your browser tab.</li>
+      <li><strong>Analytics Cookies:</strong> We may use third-party analytics services like Google Analytics to help us understand our traffic. These services use cookies to collect and analyze anonymous usage data. Their use of this data is governed by their own privacy policies.</li>
+    </ul>
+    <p>You have control over cookies. Most web browsers allow you to manage your cookie preferences. You can set your browser to refuse cookies or to delete certain cookies. However, please note that if you choose to block cookies, it may impair the functionality of some websites.</p>
+  </div>
 
-    <article class="card">
-      <h3>Your Choices</h3>
-      <ul class="muted">
-        <li><b>Clear site data:</b> remove local scores and preferences using the button below.</li>
-        <li><b>Private browsing:</b> use incognito/private windows to avoid storing local data.</li>
-      </ul>
-      <p style="margin-top:10px">
-        <button class="btn danger" id="clearData">Clear local scores & preferences</button>
-        <span id="clearMsg" class="muted" style="margin-left:10px"></span>
-      </p>
-    </article>
+  <div class='card'>
+    <h2>Third-Party Links</h2>
+    <p>Our website contains many links to other websites, such as game storefronts (like Steam, PlayStation Store), developer websites, and other resources. We provide these links for your convenience and information. When you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+    <p>We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
+  </div>
 
-    <article class="card">
-      <h3>Contact</h3>
-      <p class="muted">Questions? Use the contact form on the <a href="index.html">Home</a> page.</p>
-    </article>
+  <div class='card'>
+    <h2>Data Security</h2>
+    <p>We take the security of your data seriously. We implement reasonable administrative and technical measures to protect the information we collect from loss, theft, misuse, and unauthorized access. However, please remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security.</p>
+  </div>
+
+  <div class='card'>
+    <h2>Your Rights and Choices</h2>
+    <p>You have rights concerning your information. Depending on your location, these may include the right to access, correct, or delete the personal information we hold about you. Since we collect very little personal information, the most relevant action is typically related to contact form submissions. If you wish to have a message you sent us deleted, please contact us and we will process your request.</p>
+  </div>
+
+  <div class='card'>
+    <h2>Children's Privacy</h2>
+    <p>Our Service is not directed to individuals under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we become aware that we have collected Personal Information from a child under age 13 without verification of parental consent, we will take steps to remove that information from our servers.</p>
+  </div>
+
+  <div class='card'>
+    <h2>Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top. We encourage you to review this Privacy Policy periodically for any changes.</p>
+  </div>
+
+  <div class='card'>
+    <h2>Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please don't hesitate to reach out. You can contact us using the form on our <a href="index.html#contact">homepage</a>.</p>
   </div>
 </section>
-
-<!-- Footer -->
-<footer class="footer">
-  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
-    <div>© <span id="y"></span> BattleRush. All rights reserved.</div>
-    <div style="display:flex;gap:12px;align-items:center">
-      <span class="muted">Minimal data • Player-first</span>
-    </div>
-  </div>
-</footer>
-
-<!-- Tiny menu toggle + utilities -->
-<script>
-(function(){
-  // Mobile menu
-  const btn=document.querySelector('[data-nav-toggle]');
-  const menu=document.querySelector('[data-nav-menu]');
-  if(btn && menu){
-    btn.addEventListener('click',()=>{ menu.style.display = (menu.style.display==='flex'?'':'flex'); });
-  }
-
-  // Year
-  const y=document.getElementById('y'); if(y) y.textContent=new Date().getFullYear();
-
-  // Clear local data (scores/preferences)
-  const clearBtn = document.getElementById('clearData');
-  const msg = document.getElementById('clearMsg');
-  if(clearBtn){
-    clearBtn.addEventListener('click', ()=>{
-      if(!confirm('Clear local scores and preferences stored in your browser?')) return;
-      try{
-        // Known keys used by the site (add more if needed)
-        const KEYS = ['sl_leaderboard', 'br_settings', 'br_progress'];
-        KEYS.forEach(k => localStorage.removeItem(k));
-        msg.textContent = 'Cleared. (LocalStorage keys removed)';
-        setTimeout(()=> msg.textContent = '', 2500);
-      }catch(e){
-        msg.textContent = 'Could not clear (browser blocked).';
-        setTimeout(()=> msg.textContent = '', 2500);
-      }
-    });
-  }
-})();
-</script>
-
-</body>
-</html>
+<footer class="footer"><div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+<div>© 2025 USA Sports Hub. All rights reserved.</div><div style="display:flex;gap:12px;align-items:center"><span class="badge">Responsive • Sports Data</span></div>
+</div></footer><script src="assets/js/main.js"></script></body></html>
